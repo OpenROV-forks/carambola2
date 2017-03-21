@@ -2018,7 +2018,7 @@ CONFIG_KMOD_BATMAN_ADV_MCAST=y
 # CONFIG_KMOD_BATMAN_ADV_NC is not set
 # CONFIG_KMOD_BATMAN_ADV_BATMAN_V is not set
 CONFIG_PACKAGE_kmod-bonding=m
-CONFIG_PACKAGE_kmod-bridge=m
+CONFIG_PACKAGE_kmod-bridge=y
 CONFIG_PACKAGE_kmod-capi=m
 CONFIG_PACKAGE_kmod-dnsresolver=m
 CONFIG_PACKAGE_kmod-gre=m
@@ -2038,7 +2038,7 @@ CONFIG_PACKAGE_kmod-isdn4linux=m
 CONFIG_PACKAGE_kmod-l2tp=m
 CONFIG_PACKAGE_kmod-l2tp-eth=m
 CONFIG_PACKAGE_kmod-l2tp-ip=m
-CONFIG_PACKAGE_kmod-llc=m
+CONFIG_PACKAGE_kmod-llc=y
 CONFIG_PACKAGE_kmod-misdn=m
 CONFIG_PACKAGE_kmod-nat46=m
 CONFIG_PACKAGE_kmod-netem=m
@@ -2060,7 +2060,7 @@ CONFIG_PACKAGE_kmod-sctp=m
 CONFIG_PACKAGE_kmod-sit=m
 CONFIG_PACKAGE_kmod-slhc=y
 CONFIG_PACKAGE_kmod-slip=m
-CONFIG_PACKAGE_kmod-stp=m
+CONFIG_PACKAGE_kmod-stp=y
 CONFIG_PACKAGE_kmod-trelay=m
 CONFIG_PACKAGE_kmod-tun=m
 CONFIG_PACKAGE_kmod-udptunnel4=m
@@ -3700,7 +3700,7 @@ CONFIG_PACKAGE_avahi-nodbus-daemon=y
 # CONFIG_PACKAGE_cjdns is not set
 # CONFIG_PACKAGE_cjdns-tests is not set
 # CONFIG_PACKAGE_genl is not set
-# CONFIG_PACKAGE_igmpproxy is not set
+CONFIG_PACKAGE_igmpproxy=y
 CONFIG_PACKAGE_ip=y
 # CONFIG_PACKAGE_ip-bridge is not set
 # CONFIG_PACKAGE_ip-full is not set
